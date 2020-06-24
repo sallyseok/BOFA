@@ -1,10 +1,10 @@
 @font-face {
     font-family: corbel;
-    src: url(corbel/CORBEL.TTF);
+    src: url(../corbel/CORBEL.TTF);
 }
 @font-face {
     font-family: corbelbold;
-    src: url(corbel/CORBELB.TTF);
+    src: url(../corbel/CORBELB.TTF);
 }
 
 body {
