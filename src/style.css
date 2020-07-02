@@ -6,20 +6,12 @@
     font-family: corbelbold;
     src: url(../corbel/CORBELB.TTF);
 }
-
 body {
     font-family: corbel, "Lucida Grande", Arial, sans-serif;
     color: #224958;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 260px;
     margin-right: 260px;
-}
-body #logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 a {
     color: #89c4db;
@@ -33,17 +25,12 @@ a {
     top: 0;
     width: 100%;
     margin-left: -260px;
+    z-index: 3;
 }
-.navbar .title a {
-    font-family: corbel;
-    font-weight: 700;
-    font-size: 60px;
-    letter-spacing: 7px;
-    float: left;
-    color: #224958;
-    margin-top: 5px;
+.navbar .title {
+    float: left; 
+    padding-top: 8px;
     margin-left: 260px;
-    text-decoration: none;
 }
 .navbar .items {
     float: right;
@@ -54,7 +41,7 @@ a {
     float: left;
     color: #f0f0f2;
     text-align: center;
-    padding: 29px 16px;
+    padding: 22px 16px;
     text-decoration: none;
 }
 .navbar .items a:hover {
@@ -66,15 +53,35 @@ a {
     color: #f0f0f2;
 }
 
+/* style cover on home page */
+#homebody {
+    margin-top: 500px;
+}
+#banner {
+    position: absolute;
+    top: 79px;
+    left: 260px;
+    z-index: 1;
+}
+#logo {
+    position: absolute;
+    top: 130px;
+    left: 560px;
+    z-index: 2;
+}
+
 /* style board members table */
-body #boardmembers {
+#boardmembers {
     border-collapse: collapse;
 }
-body #boardmembers td {
+#boardmembers td {
     vertical-align: top;
     padding: 20px 50px;
     width: 50%;
     border-bottom: 1px solid #ccc;
+}
+#boardmembers img {
+    padding-left: 40px;
 }
 
 /* style photo gallery */
