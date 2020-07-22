@@ -1,3 +1,30 @@
+/*
+@media screen and (min-width: 1001px) {
+    body {
+        margin: auto;
+        width: 70%
+    }
+}
+@media screen and (min-width: 751px) and (max-width: 1000px) {
+    body {
+        margin: auto;
+        width: 85%;
+    }
+}
+@media screen and (max-width: 750px) {
+    body {
+        margin: auto;
+        width: 90%;
+    }
+    .navbar .title {
+        float: left; 
+        padding-top: 8px;
+    }
+    .navbar .items {
+        float: right;
+    }
+}
+*/
 @font-face {
     font-family: corbel;
     src: url(../corbel/CORBEL.TTF);
@@ -6,6 +33,7 @@
     font-family: corbelbold;
     src: url(../corbel/CORBELB.TTF);
 }
+
 body {
     font-family: corbel, "Lucida Grande", Arial, sans-serif;
     color: #224958;
@@ -52,6 +80,11 @@ a {
     background-color: #224958;
     color: #f0f0f2;
 }
+/*
+.navbar #titlelogo {
+    padding-right: 10px;
+}
+*/
 
 /* style cover on home page */
 #homebody {
@@ -87,7 +120,7 @@ a {
 /* style photo gallery */
 .gallery {
     width: 100%;
-    margin: auto;
+    margin-left: 10px;
 }
 .gallery .photo {
     margin: 5px;
