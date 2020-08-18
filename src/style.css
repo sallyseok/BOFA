@@ -15,62 +15,19 @@ a {
     color: #89c4db;
 }
 
-/* style top navigation bar */
+/* style navigation bar */
 .navbar {
     background-color: #89c4db;
 }
-/*.navbar {
-    background-color: #89c4db;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    margin-left: -260px;
-}
-.navbar .title {
-    float: left; 
-    padding-top: 8px;
-    margin-left: 260px;
-}
-.navbar .items {
-    float: right;
-    margin-right: 260px;
-}
-.navbar .items a {
-    font-size: 17px;
-    float: left;
-    color: #f0f0f2;
-    text-align: center;
-    padding: 22px 16px;
-    text-decoration: none;
-}
-.navbar .items a:hover {
-    background-color: #f0f0f2;
-    color: #224958;
-}
-.navbar .items a.active {
-    background-color: #224958;
-    color: #f0f0f2;
-}*/
 
 /* style board members table */
-#boardmembers {
-    border-collapse: collapse;
-}
-#boardmembers td {
-    vertical-align: top;
+.col-lg-6 {
     padding: 20px 50px;
-    width: 50%;
-    border-bottom: 1px solid #ccc;
-}
-#boardmembers img {
-    padding-left: 40px;
 }
 
 /* style photo gallery */
 .gallery {
     width: 100%;
-    margin-left: 10px;
 }
 .gallery .photo {
     margin: 5px;
